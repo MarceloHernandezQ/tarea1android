@@ -1,0 +1,53 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#490ff083">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MI APLICACION "
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#01f454"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:allowUndo="true"
+        android:background="#0e0b0b"
+        android:paddingTop="30dp"
+
+        android:password="false" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="NOMBRE "
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#e6e7f2"
+        android:autoText="false"
+        android:padding="20dp" />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="CLAVE"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#f0f0f4"
+        android:textColor="#c12626"
+        android:padding="20dp"
+        android:password="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIAR"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
